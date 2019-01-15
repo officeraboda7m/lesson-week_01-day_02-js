@@ -1,0 +1,38 @@
+Problem 1:
+
+var numOfChildren = 2;
+var partName = "Wife";
+var locate = "Saudi Arabia";
+var jobTitle = "Freelancer";
+console.log("You will be a "+jobTitle+" in "+location+", and married to "+partName+" with "+ numOfChildren + " kids.");
+
+Problem 2:
+
+var currentYear = 2019;
+var birthYear = 1993;
+var ageOne = currentYear - birthYear;
+var ageTwe = currentYear - birthYear -1;
+console.log("They are either " + ageOne + " or " + ageTwe + ".");
+
+Problem 3:
+var age = 25;
+var maxAge = 101;
+var servings = 5;
+var supply = servings*365*(maxAge-age);
+console.log("You will need " + supply + " to last you untill the ripe old age of " + maxAge);
+
+Problem 4:
+
+var radius = 10;
+var circumference = 2*3.14*radius;
+console.log("The circumference is " + circumference + ".");
+var area = 3.14*radius*radius;
+console.log("The area is " + area + ".");
+
+
+Problem 5:
+
+var cels = 38;
+console.log(cels + " C is " + (cels*(9/5)+32) + " F.");
+var fahr = cels*(9/5)+32;
+console.log(fahr + " F is " + ((fahr-32)*(5/9)) + " in C.");
